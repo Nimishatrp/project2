@@ -1,0 +1,54 @@
+body{
+background-image: url(photo.jpg);
+}
+.top{
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 12px;
+    padding: 25px;
+}
+.top h1{
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    padding-bottom: 30px;
+}
+.quiz h2{
+font-size: 22px;
+
+}
+.btn{
+    background: white;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius:8px ;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background: black;
+    color: white;
+
+}
+#next{
+    background:black;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    margin: auto 10px 0;
+    border-radius: 8px;
+    border: 1px solid black;
+    align-items: center;
+    cursor: pointer;
+    display: none;
+}
+.correct{
+    background: rgb(94, 237, 94);
+}
+.incorrect{
+    background: rgb(255, 44, 44);
+}
